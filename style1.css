@@ -4,8 +4,6 @@ body {
   color: #2B1E15;
   font-size: 18px;
   line-height: 1.6;
-  margin: 0;
-  padding: 0;
 }
 
 h1 {
@@ -17,14 +15,16 @@ h1 {
   margin: 0;
   text-align: center;
   font-size: 50px;
+  border-radius: 5px;
 }
 
 h2 {
-  font-family: Georgia, Garamond, serif;
+  font-family: Garamond, Georgia, serif;
   color: #2B1E15;
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   margin-top: 20px;
+  border-radius: 5px;
 }
 
 h3 {
@@ -34,60 +34,47 @@ h3 {
   background-color: #2B1E15;
   color: #DBD1CA;
   font-family: Georgia, Garamond, serif;
-  padding: 15px;
-  margin: 40px 0 20px 0;
   border-radius: 5px;
 }
 
 p {
   line-height: 1.6;
-  margin: 0 auto;
-  padding: 0 20px;
-  max-width: 800px;
   text-align: justify;
-}
-
-blockquote {
-  margin: 0;
-  padding: 0 20px;
-  color: #2B1E15;
 }
 
 nav {
   padding: 10px 0;
   text-align: center;
-  background-color: #2B1E15;
   margin-bottom: 20px;
 }
 
-nav a {
-  color: #DBD1CA;
-  font-size: 18px;
+nav a, a {
+  color: #2B1E15;
+  font-size: 20px;
   padding: 10px 20px;
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 
-nav a:hover {
-  color: #090604;
+nav a:hover, a:hover {
+  color: #DBD1CA;
   font-weight: bold;
-}
-
-a {
-  color: #2B1E15;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  background-color: #DBD1CA;
-  color: #4D3626;
+  background-color: #4D3626 ;
   border-radius: 5px;
 }
 
+nav a:focus, a:focus{
+  outline: 3px solid #2B1E15 ; 
+  outline-offset: 2px; 
+  background-color: #4D3626;
+  color: #DBD1CA;
+  border: 2px solid #4D3626;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+
 div {
-  margin: 0 auto;
-  max-width: 800px;
+  margin: 0;
   padding: 20px;
 }
 
@@ -96,7 +83,6 @@ div {
 }
 
 a[href="#top"] {
-  display: inline-block;
   padding: 10px 20px;
   background-color: #2B1E15;
   color: #DBD1CA;
@@ -113,4 +99,17 @@ a[href="#top"]:hover {
   padding: 10px 20px;
   border: 2px solid #4D3626;
   font-weight: bold;
+}
+a[href="#top"]:focus {
+  outline: 3px solid #2B1E15 ; 
+  outline-offset: 2px; 
+  background-color: #4D3626;
+  color: #DBD1CA;
+  border: 2px solid #4D3626;
+  font-weight: bold;
+}
+
+a[href="#top"]:active {
+  background-color: #6B4F3A;
+  border: 2px solid #6B4F3A;
 }
