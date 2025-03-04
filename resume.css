@@ -10,10 +10,9 @@ body {
 
 
 .resume-container {
-    max-width: 800px;
-    margin: 30px;
     background: #DBD1CA;
-    padding: 30px;
+    padding: 50px;
+    margin: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -104,3 +103,12 @@ a[href="#top"]:hover, a[href="index.html"]:hover {
     border: 2px solid #4D3626;
     font-weight: bold;
 }
+
+a[href="#top"]:focus, a[href="index.html"]:focus{
+    outline: 3px solid #2B1E15 ; 
+    outline-offset: 2px; 
+    background-color: #4D3626;
+    color: #DBD1CA;
+    border: 2px solid #4D3626;
+    font-weight: bold;
+  }
