@@ -77,3 +77,12 @@ nav a:hover i {
     transition: transform 0.3s ease;
 }
 
+.video-item {
+        width: 500px;
+        height: 300px;
+        display: block; 
+        margin: 0 auto;
+        max-width: 100%;
+        object-fit: cover; 
+    }
+
