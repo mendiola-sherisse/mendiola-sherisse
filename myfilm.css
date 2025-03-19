@@ -1,0 +1,115 @@
+body {
+    background-color: #2B1E15;
+    font-family: "Trebuchet MS", Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+
+h1 {
+    font-family: Garamond;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #DBD1CA;
+    font-size: 3.5em;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.category {
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+h2 {
+    font-family: Garamond;
+    color: #DBD1CA;
+    background-color: #2B1E15;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 40px 0;
+    letter-spacing: 3px;
+}
+
+
+.video-item {
+    background: #fff;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 30px 0;
+    transition: all 0.4s ease;
+    border: 1px solid rgba(111, 78, 55, 0.1);
+}
+
+.video-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(43, 30, 21, 0.15);
+    border-color: #6F4E37;
+}
+
+.video-item h3 {
+    font-weight: bold;
+    color: #2B1E15;
+    font-size: 1.4em;
+    margin: 0 0 10px 0;
+}
+
+.video-item p {
+    color: #4D3626;
+    font-size: 1.1em;
+    margin: 0 0 20px 0;
+}
+
+iframe {
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(43, 30, 21, 0.2);
+    transition: transform 0.4s ease;
+}
+
+.video-item:hover iframe {
+    transform: scale(1.02);
+}
+.top {
+    text-align: center;
+    margin-top: 30px;
+}
+
+a[href="#top"], a[href="index.html"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #DBD1CA;
+    color:  #2B1E15;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #DBD1CA;
+}
+
+a[href="#top"]:hover, a[href="index.html"]:hover {
+    background-color: #4D3626;
+    color: #DBD1CA;
+    border: 2px solid #DBD1CA;
+    font-weight: bold;
+}
+
+a[href="#top"]:focus, a[href="index.html"]:focus{
+    outline: 3px solid #2B1E15 ; 
+    outline-offset: 2px; 
+    background-color: #4D3626;
+    color: #DBD1CA;
+    border: 2px solid #DBD1CA;
+    font-weight: bold;
+  }
+
+
