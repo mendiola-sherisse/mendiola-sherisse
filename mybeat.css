@@ -101,3 +101,34 @@ audio::-webkit-media-controls-current-time-display,
 audio::-webkit-media-controls-time-remaining-display {
     color: #2B1E15;
 }
+.top {
+    text-align: center;
+    margin-top: 30px;
+}
+
+a[href="#top"], a[href="index.html"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #DBD1CA;
+    color:  #2B1E15;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #DBD1CA;
+}
+
+a[href="#top"]:hover, a[href="index.html"]:hover {
+    background-color: #4D3626;
+    color: #DBD1CA;
+    border: 2px solid #DBD1CA;
+    font-weight: bold;
+}
+
+a[href="#top"]:focus, a[href="index.html"]:focus{
+    outline: 3px solid #2B1E15 ; 
+    outline-offset: 2px; 
+    background-color: #4D3626;
+    color: #DBD1CA;
+    border: 2px solid #DBD1CA;
+    font-weight: bold;
+  }
